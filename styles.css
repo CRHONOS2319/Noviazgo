@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: absolute;
+    height: 100vh;
+    margin: 0;
+    background: url('img/Cora.jpg') no-repeat center center/cover;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(197, 193, 193);
+}
+
+p{
+    font-size: 25px;
+    color: rgb(218, 45, 45);
+}
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(196, 9, 9, 0.1);
+    text-align: center;
+}
+
+button {
+    font-size: 17px;
+    background-color: #d1171796;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
+
+#buttons {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
